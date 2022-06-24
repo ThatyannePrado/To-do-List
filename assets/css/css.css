@@ -1,0 +1,62 @@
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+.titulo {
+    color: brown;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+
+
+}
+
+.add-tarefa {    
+    width: 100%;
+   
+
+}
+
+#input-tarefa {
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 25px;
+    width: 150px;
+
+}
+
+button {
+    background-color: rgb(226, 255, 245);
+    color: rgb(14, 177, 177);
+    border: 1px solid rgb(14, 177, 177);
+    height: 28px;
+    border-radius: 5px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+#tarefas {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .item-tarefa {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  :checked + label {
+    text-decoration: line-through;
+    color: grey;
+  }
+
+
+
+
